@@ -1,5 +1,5 @@
 import { Avatar, Box, Toolbar, Typography } from "@mui/material";
-import React, { useState } from "react";
+import React from "react";
 import KeyboardBackspaceIcon from "@mui/icons-material/KeyboardBackspace";
 import "../styles/Navbar.css";
 import SearchIcon from "@mui/icons-material/Search";
@@ -25,7 +25,7 @@ const data = [
 ];
 
 export default function Navbar() {
-  const [checked, setchecked] = useState(false);
+  // const [checked, setchecked] = useState(false);
 
   return (
     <>
