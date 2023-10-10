@@ -1,0 +1,24 @@
+.timeStamp {
+    color: #056B6B !important;
+    font-weight: 600;
+    padding-right: 5px;
+    font-size: 12px;
+}
+
+.badgeIcon {
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    background-color: #056B6B;
+    color: white;
+    text-align: center;
+}
+
+.chat-icon {
+    margin: 5px;
+}
+
+.userName {
+    color: #111111;
+}
